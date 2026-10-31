@@ -1,0 +1,7 @@
+# dsh-sidechat —— 插件自带的挂载声明。
+# 装法：dsh plugin --profile desktop add link:<本目录>
+# host 半端为空；功能全在 client.js（右栏 tab + 会话派生 + conversation.content）。
+- insert:
+    - id: side-chat
+      name: dsh-sidechat
+      config: {}
