@@ -1,4 +1,4 @@
-# dsh-sidechat
+# dsh-sidechat（npm: @xywen97/dsh-sidechat）
 
 Codex 风格的**侧边聊天**：右侧栏里一个**临时的空对话面板**，和主对话并排。选中的文字可以「带进侧边聊天」当作片段。
 
@@ -53,6 +53,9 @@ Codex 风格的**侧边聊天**：右侧栏里一个**临时的空对话面板**
 | 窗口 | 入口按钮在 header actions（宿主声明的 no-drag 区），不覆盖窗口、不影响拖拽/双击标题栏 |
 
 ## 安装
+
+已发布到 npm：`@xywen97/dsh-sidechat@0.1.0`（npm 上 `dsh-side-chat` 已被他人占用，故用 scope 包名）。
+
 
 ```sh
 # npm（推荐）
