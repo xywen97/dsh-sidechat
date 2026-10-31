@@ -1,5 +1,5 @@
 {
-  "name": "dsh-sidechat",
+  "name": "@xywen97/dsh-sidechat",
   "version": "0.1.0",
   "private": false,
   "description": "DSH 侧边聊天：在右侧栏开一个临时对话面板，自动把主对话历史作为隐藏上下文注入（不出现在聊天记录里），关掉即归档。",
@@ -50,5 +50,8 @@
   "engines": {
     "node": ">=20",
     "dsh": ">=0.2.1-rc.5 <0.3.0-0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

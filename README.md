@@ -56,13 +56,13 @@ Codex 风格的**侧边聊天**：右侧栏里一个**临时的空对话面板**
 
 ```sh
 # npm（推荐）
-dsh plugin --profile desktop add dsh-sidechat
+dsh plugin --profile desktop add @xywen97/dsh-sidechat
 
 # 或直接钉 Git 提交
 dsh plugin --profile desktop add "git+https://github.com/xywen97/dsh-sidechat.git"
 ```
 
-也可以走桌面版 `设置 → 插件 → 安装`，spec 填 `dsh-sidechat`。
+也可以走桌面版 `设置 → 插件 → 安装`，spec 填 `@xywen97/dsh-sidechat`。
 装完**重启一次 DSH**（host 半端有上下文注入逻辑，重启才加载；客户端部分可热加载）。
 
 ### 配套插件

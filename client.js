@@ -19,12 +19,12 @@
  */
 
 window.__ModuleLoader__.load({
-  id: 'dsh-sidechat',
+  id: '@xywen97/dsh-sidechat',
   factory: function (require) {
     var React = require('react');
     var h = React.createElement;
 
-    var PLUGIN_ID = 'dsh-sidechat';
+    var PLUGIN_ID = '@xywen97/dsh-sidechat';
     var TAB_ID = 'dsh-side-chat/tab';
     var ADDRESS = 'dsh-resource://sidechat/session/';
     /** localStorage：本次运行里还开着的侧边会话 id（用于重启后归档）。 */

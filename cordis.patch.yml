@@ -1,12 +1,12 @@
 # dsh-sidechat —— 插件自带的挂载声明。
 #
 # 装法（任选其一）：
-#   dsh plugin --profile desktop add dsh-sidechat
+#   dsh plugin --profile desktop add @xywen97/dsh-sidechat
 #   dsh plugin --profile desktop add "git+https://github.com/xywen97/dsh-sidechat.git"
 #
 # host 半端：把主对话历史注入成侧边会话的隐藏 system 提示词段；
 # client 半端：右栏 tab + 会话创建/归档 + conversation.content 渲染。
 - insert:
     - id: side-chat
-      name: dsh-sidechat
+      name: "@xywen97/dsh-sidechat"
       config: {}
